@@ -25,3 +25,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/*navbar button */
+
+@layer base {
+  li {
+    @apply p-4
+  }
+
+  button {
+    @apply text-white border bg-orange-600 border-orange-600
+    hover:bg-opacity-80 hover:text-white rounded-md
+  }
+}
+

@@ -1,0 +1,63 @@
+const calendar = [
+  {
+    id: 1,
+    day: "Sal",
+    month: "12 Ara",
+    times: ["14:20", "14:40", " 15:20", "15:40", "16:20", "16:40"],
+  },
+  { id: 2, day: "Çar", month: "13 Ara", times: ["14:20", "14:40", " 15:20"] },
+  {
+    id: 3,
+    day: "Per",
+    month: "14 Ara",
+    times: ["14:40", "15:20", " 15:40", "16:20", " 16:40"],
+  },
+  {
+    id: 4,
+    day: "Cum",
+    month: "15 Ara",
+    times: ["14:40", "15:20", " 15:40", "16:20", " 16:40"],
+  },
+  { id: 5, day: "Cmt", month: "16 Ara", times: ["-"] },
+  { id: 6, day: "Paz", month: "17 Ara", times: ["-"] },
+  {
+    id: 7,
+    day: "Pzt",
+    month: "18 Ara",
+    times: ["14:40", "15:20", " 15:40", "16:20", " 16:40"],
+  },
+  {
+    id: 8,
+    day: "Sal",
+    month: "19 Ara",
+    times: ["14:40", "15:20", " 15:40", "16:20", " 16:40"],
+  },
+  { id: 9, day: "Çar", month: "20 Ara", times: ["14:20", "14:40", " 15:20"] },
+  { id: 10, day: "Per", month: "21 Ara", times: ["14:20", "14:40"] },
+  { id: 11, day: "Cum", month: "22 Ara", times: ["14:20", "14:40", " 15:20"] },
+  { id: 12, day: "Cmt", month: "23 Ara", times: ["-"] },
+  { id: 13, day: "Paz", month: "24 Ara", times: ["-"] },
+  { id: 14, day: "Pzt", month: "25 Ara", times: ["14:20", "14:40", " 15:20"] },
+  {
+    id: 15,
+    day: "Sal",
+    month: "26 Ara",
+    times: ["14:40", "15:20", " 15:40", "16:20", " 16:40"],
+  },
+  {
+    id: 16,
+    day: "Çar",
+    month: "27 Ara",
+    times: ["14:40", "15:20", " 15:40", "16:20"],
+  },
+  {
+    id: 17,
+    day: "Per",
+    month: "28 Ara",
+    times: ["14:40", "15:20", " 15:40", "16:20", " 16:40"],
+  },
+  { id: 18, day: "Cum", month: "29 Ara", times: ["14:20", "14:40"] },
+  { id: 19, day: "Cmt", month: "30 Ara", times: ["-"] },
+  { id: 20, day: "Paz", month: "31 Ara", times: ["-"] },
+];
+export { calendar };
