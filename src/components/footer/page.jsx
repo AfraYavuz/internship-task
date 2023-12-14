@@ -9,15 +9,15 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className="w-full  bg-footerColor text-black  px-2">
-      <div className="hidden md:flex items-center py-6">
+      <div className=" lg:flex lg:items-center lg:py-6 p-3">
         <Link href="https://www.livemedy.com/tr/">
           <Image
             id="logo-container"
             src={logo}
             alt="livemedy-logo"
-            width={200}
-            height={200}
-            className=" ms-24"
+            width={100}
+            height={100}
+            className=" lg:ms-24 items-start lg:w-[150] lg:h-[150]"
           ></Image>
         </Link>
 
@@ -56,8 +56,8 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className=" hidden md:flex space-x-80  py-4 ">
-        <div className="flex justify-between sm:w-[300px] pt-4 text-2xl p-8 mt-10 ml-80 ">
+      <div className="  flex-row lg:flex lg:space-x-80  lg:py-4  ">
+        <div className=" flex lg:justify-between  lg:pt-4 text-2xl lg:p-8 lg:mt-10 lg:ml-80 gap-3 ml-5 ">
           <AiFillTwitterCircle style={{ color: "#e74b3c" }} />
           <FaInstagramSquare
             className="rounded-full"
@@ -66,14 +66,14 @@ const Footer = () => {
           <FaFacebook style={{ color: "#e74b3c" }} />
           <FaLinkedin className="rounded-full " style={{ color: "#e74b3c" }} />
         </div>
-        <div className=" flex-auto pt-8 md:pt-2 ">
-          <p className="py-4">
+        <div className="  lg:pt-8 lg:ml-20 text-xs pt-4 ml-7 ">
+          <p className="lg:py-4 ml-8 gap-2">
             Özel fırsatlar ve güncellemeler için bültenimize <br />
             abone olun:
           </p>
-          <form className="flex flex-col sm:flex-row">
+          <form className="lg:flex flex-row  lg:flex-row ">
             <input
-              className=" w-64 p-2 mr-4 rounded-md mb-4"
+              className=" lg:w-64 lg:p-2 p-2 lg:mr-4 rounded-md lg:mb-4 lg:ml-8 ml-10"
               type="email"
               placeholder="e-posta"
             />

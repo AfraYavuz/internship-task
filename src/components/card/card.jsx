@@ -14,7 +14,7 @@ const ProfileCard = ({ profile }) => {
       <Card
         className=" rounded-[25px] shadow-lg"
         style={{
-          width: 400,
+          width: 380,
           height: 700,
         }}
       >

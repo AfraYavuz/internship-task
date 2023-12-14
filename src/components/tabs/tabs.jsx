@@ -29,7 +29,7 @@ const ProfileTabs = ({ tabs }) => {
             icon={<RiAccountBoxFill style={{ color: "black" }} />}
             iconPosition="start"
             wrapped
-            className="flex items-center justify-center"
+            className="flex lg:items-center lg:justify-center"
             sx={{
               flexGrow: 2,
               color: "black",
@@ -46,7 +46,7 @@ const ProfileTabs = ({ tabs }) => {
             iconPosition="start"
             label="Sosyal"
             wrapped
-            className="flex items-center justify-center"
+            className="flex lg:items-center lg:justify-center"
             sx={{
               flexGrow: 2,
               color: "black",
@@ -62,11 +62,11 @@ const ProfileTabs = ({ tabs }) => {
       </Box>
       <TabPanel value="one">
         <div>
-          <div className="flex items-center text-center text-lg ml-0 mb-4">
+          <div className="flex lg:items-center lg:text-center text-lg lg:text-sm lg:ml-0 lg:mb-4">
             <FaStethoscope className=" mr-2" />
             <p>Klinik İlgi Alanları</p>
           </div>
-          <div className="flex  rounded-xl  items-center   bg-primary mt-1 shadow-lg">
+          <div className="flex  rounded-xl  lg:items-center   bg-primary lg:mt-1 shadow-lg text-black">
             <div className=" rounded-xl  text-center py-16 my-3 bg-primary">
               <p className="  text-center">{tabs.clinicalInterests}</p>
             </div>
@@ -75,7 +75,7 @@ const ProfileTabs = ({ tabs }) => {
             <PiStudentBold className=" mr-2" />
             <p>Eğitim Bilgileri</p>
           </div>
-          <div className=" rounded-xl text-center items-center  bg-primary mt-1 shadow-lg">
+          <div className=" rounded-xl text-center items-center  bg-primary mt-1 shadow-lg text-black">
             <div className=" rounded-xl  py-2  bg-primary">
               <ul className="">
                 {tabs.educationalInformation.map((education, index) => (
@@ -91,7 +91,7 @@ const ProfileTabs = ({ tabs }) => {
             <FaRegHospital className=" mr-2" />
             <p>İş Yeri ve Deneyim</p>
           </div>
-          <div className=" rounded-xl text-center items-center  bg-primary mt-1 shadow-lg">
+          <div className=" rounded-xl text-center items-center  bg-primary mt-1 shadow-lg text-black">
             <div className=" rounded-xl  py-2  bg-primary">
               <ul className="">
                 {tabs.experience.map((work, index) => (

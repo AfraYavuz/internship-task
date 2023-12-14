@@ -25,7 +25,7 @@ const CalendarSlider = () => {
         }}
         modules={[Navigation]}
         className="flex justify-center items-center  "
-        style={{ width: 400, height: 250 }}
+        style={{ width: 370, height: 250 }}
       >
         {calendar.map((calendar) => (
           <SwiperSlide key={calendar.id} className=" space-y-2 text-center ">
